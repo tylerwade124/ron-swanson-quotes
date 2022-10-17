@@ -17,23 +17,18 @@ async function getData (event) {
         .then (res => {
             console.log(`success`, res)
          
-            
-            
-            
-            let list = document.getElementById(`myList`)
+            let list = document.getElementById(`quote-list`)
 
             list.innerHTML = ``
 
             res.forEach ((item) => {
-                let li = document.createElement("li")
+                let li = document.createElement(`li`)
                 li.innerText = item
                 list.appendChild(li)
             })
-
-
         })
         .catch (err => {
-            console.log("error!", err)
+            console.log(`error!`, err)
         })
 }
 
