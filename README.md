@@ -3,18 +3,9 @@ Using a 3rd party API, I'm making a site that when you type a given topic or num
 #
 API
 ##
-http://ron-swanson-quotes.herokuapp.com/v2/quotes
-###
-Returns an array with with 1 quote
-
-##
-http://ron-swanson-quotes.herokuapp.com/v2/quotes/2
-###
-Type a number instead of 2, and receieve that many ron swanson quotes
-
 http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/x
 ###
-Returns an array of multiple quotes matching x term
+Returns an array of multiple Ron Swanson quotes matching x term
 
 #
 WireFrame
