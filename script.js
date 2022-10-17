@@ -17,7 +17,13 @@ async function getData (event) {
         .then (res => {
             console.log(`success`, res)
          
+            
+            
+            
             let list = document.getElementById(`myList`)
+
+            list.innerHTML = ``
+
             res.forEach ((item) => {
                 let li = document.createElement("li")
                 li.innerText = item
