@@ -1,8 +1,8 @@
-// console.log(`working`)
+
 
 //GLOBAL variables
-
 let searchButton = document.querySelector(`#searchButton`)
+
 
 //FUNCTIONS/FETCH URL
 
@@ -16,15 +16,19 @@ async function getData (event) {
         })
         .then (res => {
             console.log(`success`, res)
-            let quote = document.querySelector(`#quoteText`)
-            quote.innerText = res
+         
+            let list = document.getElementById(`myList`)
+            res.forEach ((item) => {
+                let li = document.createElement("li")
+                li.innerText = item
+                list.appendChild(li)
+            })
+
+
         })
         .catch (err => {
             console.log("error!", err)
         })
-
-
-
 }
 
 
