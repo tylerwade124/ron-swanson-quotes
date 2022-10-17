@@ -8,13 +8,13 @@ http://ron-swanson-quotes.herokuapp.com/v2/quotes
 Returns an array with with 1 quote
 
 ##
-http://ron-swanson-quotes.herokuapp.com/v2/quotes/<count>
+http://ron-swanson-quotes.herokuapp.com/v2/quotes/2
 ###
-Type a number in the count section, and receieve that many ron swanson quotes
+Type a number instead of 2, and receieve that many ron swanson quotes
 
-http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/<term>
+http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/x
 ###
-Returns an array of multiple quotes matching the term
+Returns an array of multiple quotes matching x term
 
 #
 WireFrame
