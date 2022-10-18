@@ -32,7 +32,7 @@ async function getData (event) {
             console.log(`success`, res)
 
 
-            //adds gifs/images to HTML if the user types certain key words
+            //adds gifs/images to HTML if the user types certain key words if textInput does not = one of the keywords return empty string
                 if (textInput !== `hate` || `clear` || `food` || `100` || `government` || `bacon` || `fishing` || `money` || `capitalism` || `love` || `taxes` || `rage` || `cry` || `1776` || `dog` || `hair`) {
                 img.src = ``
                 }
