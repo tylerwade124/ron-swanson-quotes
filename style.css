@@ -26,7 +26,8 @@ ul {
 }
 
 #subtitle {
-    padding: 13px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     font-family: 'Merriweather', serif;
 }
 
@@ -59,6 +60,37 @@ li {
     font-size: 20px;
     font-family: 'Merriweather', serif;
     height: 40px;
+}
+
+#rsfImageTopLeft {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    height: 100px;
+}
+
+#rsfImageTopRight {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    height: 100px;
+    transform: scaleX(-1);
+}
+
+#rsfImageBottomLeft {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    height: 100px;
+    transform: scaleY(-1);
+}
+
+#rsfImageBottomRight {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    height: 100px;
+    transform: scale(-1, -1)
 }
 
 

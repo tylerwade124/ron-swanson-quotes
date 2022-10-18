@@ -5,7 +5,7 @@ let searchButton = document.querySelector(`#searchButton`)
 
 let input = document.querySelector(`#inputBar`)
 
-let img = document.querySelector(`img`)
+let img = document.querySelector(`#gif`)
 // let imgText = document.querySelector(`#img-text`)
 
 let topics = document.querySelector(`#tpcButton`)
@@ -141,5 +141,5 @@ async function getData (event) {
 
     //GIF-quote list alert
     topics.addEventListener(`click`, function(event) {
-        alert(`List of topics that also include a GIF: hate, food, clear, 100, government, bacon, fishing, money, capitalism, love, taxes, rage, cry, 1776, dog, hair`)
+        alert(`List of keywords that also include a GIF: hate, food, clear, 100, government, bacon, fishing, money, capitalism, love, taxes, rage, cry, 1776, dog, hair`)
     })
