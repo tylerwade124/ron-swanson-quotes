@@ -4,6 +4,10 @@ body {
     background-color: rgba(233, 227, 101, 0.714);
 }
 
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
 ul {
     list-style: none;
     padding: 20px;
@@ -17,6 +21,7 @@ ul {
 
 #subtitle {
     padding: 13px;
+    font-family: 'Merriweather', serif;
 }
 
 #searchBar {
@@ -28,16 +33,20 @@ ul {
     width: 150px;
     border-radius: 7%;
     font-size: 20px;
-    
+    font-family: 'Merriweather', serif;
 }
 
 #searchButton {
     height: 40px;
     border-radius: 25%;
     font-size: 20px;
+    font-family: 'Merriweather', serif;
 }
 
 li {
     margin: 25px;
+    font-family: 'Patrick Hand', cursive;
 }
+
+
 
