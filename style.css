@@ -1,11 +1,16 @@
 
 body {
     text-align: center;
-    background-color: rgba(233, 227, 101, 0.714);
+    background-image: url("https://i.pinimg.com/originals/f9/ea/ba/f9eaba5587775540dd628f1203c3b589.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 h1 {
     font-family: 'Merriweather', serif;
+    color: white;
 }
 
 ul {
@@ -14,7 +19,7 @@ ul {
 }
 
 #searchButton:hover {
-    background-color: green;
+    background-color: brown;
     color: white;
     cursor: pointer;
 }
@@ -22,13 +27,14 @@ ul {
 #tpcButton:hover {
     color: white;
     cursor: pointer;
-    background-color: blue;
+    background-color: brown;
 }
 
 #subtitle {
     padding-top: 25px;
     padding-bottom: 15px;
     font-family: 'Merriweather', serif;
+    color: white;
 }
 
 #searchBar {
@@ -53,6 +59,7 @@ ul {
 li {
     margin: 25px;
     font-family: 'Patrick Hand', cursive;
+    color: white;
 }
 
 #tpcButton {

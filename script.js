@@ -6,7 +6,6 @@ let searchButton = document.querySelector(`#searchButton`)
 let input = document.querySelector(`#inputBar`)
 
 let img = document.querySelector(`#gif`)
-// let imgText = document.querySelector(`#img-text`)
 
 let topics = document.querySelector(`#tpcButton`)
 
