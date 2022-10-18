@@ -1,9 +1,43 @@
+
 body {
     text-align: center;
+    background-color: rgba(233, 227, 101, 0.714);
 }
 
-
-
-h2 {
-    line-height: 10px;
+ul {
+    list-style: none;
+    padding: 20px;
 }
+
+#searchButton:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#subtitle {
+    padding: 13px;
+}
+
+#searchBar {
+    padding: 25px;
+}
+
+#inputBar {
+    height: 40px;
+    width: 150px;
+    border-radius: 7%;
+    font-size: 20px;
+    
+}
+
+#searchButton {
+    height: 40px;
+    border-radius: 25%;
+    font-size: 20px;
+}
+
+li {
+    margin: 25px;
+}
+
