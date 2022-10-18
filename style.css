@@ -19,6 +19,12 @@ ul {
     cursor: pointer;
 }
 
+#tpcButton:hover {
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+
 #subtitle {
     padding: 13px;
     font-family: 'Merriweather', serif;
@@ -46,6 +52,13 @@ ul {
 li {
     margin: 25px;
     font-family: 'Patrick Hand', cursive;
+}
+
+#tpcButton {
+    border-radius: 25%;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    height: 40px;
 }
 
 
