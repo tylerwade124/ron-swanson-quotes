@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-family: 'Merriweather', serif;
-    color: white;
+    color: azure;
 }
 
 ul {
@@ -20,12 +20,12 @@ ul {
 
 #searchButton:hover {
     background-color: brown;
-    color: white;
+    color: azure;
     cursor: pointer;
 }
 
 #tpcButton:hover {
-    color: white;
+    color: azure;
     cursor: pointer;
     background-color: brown;
 }
@@ -34,7 +34,7 @@ ul {
     padding-top: 25px;
     padding-bottom: 15px;
     font-family: 'Merriweather', serif;
-    color: white;
+    color: azure;
 }
 
 #searchBar {
@@ -59,7 +59,7 @@ ul {
 li {
     margin: 25px;
     font-family: 'Patrick Hand', cursive;
-    color: white;
+    color: azure;
 }
 
 #tpcButton {

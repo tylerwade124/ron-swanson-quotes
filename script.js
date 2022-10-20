@@ -18,7 +18,7 @@ async function getData (event) {
 
     event.preventDefault()
 
-    //user is able to type in any variatian of capitals, and get the same textInput value
+    //user is able to type in any variatian of capital letters, and get the same textInput value
     let textInput = document.querySelector(`#inputbar`).value.toLowerCase()
 
     fetch(`http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/${textInput}`)
@@ -139,6 +139,6 @@ async function getData (event) {
     })
 
     //GIF-quote list alert
-    topics.addEventListener(`click`, function(event) {
+    topics.addEventListener(`click`, function() {
         alert(`List of keywords that also include a GIF: hate, food, clear, 100, government, bacon, fishing, money, capitalism, love, taxes, rage, cry, 1776, dog, hair`)
     })
