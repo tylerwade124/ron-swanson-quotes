@@ -1,12 +1,19 @@
 # ron-swanson-quotes
 Using a 3rd party API, I'm making a site that when you type a given topic or number into a search bar, it returns a quote from Ron Swanson - from Parks & Recreation
 
+*Some keywords will also return a GIF, there is a list of those keywords on the webpage* 
+
+
 ![This is an image](https://user-images.githubusercontent.com/114370648/197046647-7f4870d2-48c6-41d5-b47f-1e7212e6b848.png)
+
+# 
+[Click here](energetic-pail123.surge.sh) to view the webpage
 
 # API-call
 
 ##
 http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/x
+
 ###
 Returns an array of multiple Ron Swanson quotes matching x term
 
